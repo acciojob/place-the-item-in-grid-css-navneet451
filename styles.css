@@ -1,9 +1,16 @@
 
 /* Your CSS Code here. */
 .holder {
-	display:grid;
-	grid-template-columns:repeat(2,200px);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 200px; /* Total grid width */
+  height: 200px; /* Total grid height */
+  gap: 10px; /* Optional, for spacing between grid items */
 }
-.item{
-	background-color:red;
+
+.item {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
 }
